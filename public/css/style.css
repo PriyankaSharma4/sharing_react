@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+html,body,address,blockquote,div,dl,form,h1,h2,h3,h4,h5,h6,ol,p,pre,table,ul,dd,dt,li,tbody,td,tfoot,th,thead,tr,button,del,ins,map,object,a,abbr,acronym,b,bdo,big,br,cite,code,dfn,em,i,img,kbd,q,samp,small,span,strong,sub,sup,tt,var,legend,
+fieldset,p, aside, header, footer, section, article {
+	border: medium none;
+	margin: 0;
+	padding: 0;
+}
+
+:focus
+{
+	outline: none !important;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: 600;
+}
+h1
+{
+	font-size: 36px;
+}
+h2
+{
+	font-size: 30px;
+}
+h3
+{
+	font-size: 24px;
+}
+h4
+{
+	font-size: 18px;
+}
+
+img,fieldset 
+{
+	border: 0 none;
+}
+
+a
+{
+	border: none;
+	outline: none;
+}
+
+input[type="submit"], select
+{
+	-webkit-appearance:none;
+}
+img
+{
+	border: none;
+	height: auto;
+	max-width: 100%;
+	outline: none;
+	vertical-align: middle;
+}
+iframe
+{
+    vertical-align: middle;
+}
+a:hover
+{
+	text-decoration: none;
+}
+
+.clear
+{
+	clear: both;
+}
+ul::after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+ul
+{
+	list-style:none;
+}
+
+body
+{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 27px;
+	color: #2c2c2c;
+}
+
+.logoheader {
+    padding: 20px 0;
+}
+.leftcontent p {
+    padding-right: 20px;
+    font-size: 12px;
+}
+.rightcontent ul li {
+    margin-left: 30px;
+}
+.rightcontent ul li a {
+    color: #2c2c2c;
+    font-size: 12px;
+}
+.rightcontent ul li a .fa {
+    font-size: 18px;
+}
+.nav_bg{
+    background: #e1e1e1;
+}
+.custom_nav {
+    padding: 5px 0;
+}
+.custom_nav .nav-item .nav-link {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: #2c2c2c;
+}
+.custom_nav .nav-item .nav-link:hover {
+   color: #42bbea;
+}
+.custom_nav ul {
+    margin: 0 auto;
+}
+.custom_nav ul li {
+    padding: 0 20px;
+}
+.rightcontent{
+    position: relative;
+padding-right: 80px;
+}
+
+.cart_bg{
+    position: absolute;
+    right: 0;
+    margin-left: 0;
+    background: url(../images/cart_bg.png);
+    top: -25px;
+    height: 70px;
+    padding: 25px 0 0 0;
+    width: 46px;
+    text-align: center;
+}
+.cart_bg .fa{
+    color: #fff;
+}
+.blue_btn{
+    
+}
+/** start responsive **/
+@media screen and (max-width:1199px)
+{
+   
+}
+@media screen and (max-width:991px)
+{
+    
+
+}
+@media screen and (max-width:767px)
+{
+    
+}
+@media screen and (max-width:575px)
+{
+   
+}
